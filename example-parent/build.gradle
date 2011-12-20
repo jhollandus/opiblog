@@ -1,0 +1,44 @@
+//for dependency management, like maven group and version. By default the name will be the directory name.
+group = 'com.mycompany.myproject'
+
+version = '1.0-SNAPSHOT'
+
+SLF4J_VERSION = '1.6.4'
+
+//specify all projects (modules) should use maven central for repositories
+allprojects {
+
+    repositories {
+
+        mavenCentral()
+
+    }
+
+}
+
+//add the following configuration to all sub-projects
+subprojects {
+
+    configurations {
+
+        commonTest
+        common
+
+    }
+
+
+   dependencies {
+
+      //common test dependencies
+      commonTest 'junit:junit:4.8.2'
+
+      //common dependencies
+      common "org.slf4j:slf4j-api:${SLF4J_VERSION}"
+      common "org.slf4j:slf4j-log4j12:${SLF4J_VERSION}"
+      common 'log4j:log4j:1.2.14'
+
+   }
+
+}
+
+

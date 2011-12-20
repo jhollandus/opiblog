@@ -1,0 +1,20 @@
+apply plugin: 'application'
+
+version = '1.0-SNAPSHOT'
+
+configurations {
+
+    compile.extendsFrom configurations.common
+
+    testCompile.extendsFrom configurations.commonTest
+
+}
+
+dependencies {
+
+    //no additional dependencies needed now
+
+}
+
+//configurations for the application plugin
+mainClassName = 'com.objectpartners.blog.gradle.HelloWorld'

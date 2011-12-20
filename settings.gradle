@@ -1,0 +1,6 @@
+//set parent as our root project
+rootProject.name = 'example-parent'
+rootProject.projectDir = new File(settingsDir, 'example-parent')
+
+//include core
+includeFlat 'example-core'
