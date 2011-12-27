@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry kind="src" path="/example-core" exported="true"/>
+	<classpathentry sourcepath="/Users/jholland/.gradle/caches/artifacts-4/org.slf4j/slf4j-api/c12498cf18507aa6433a94eb7d3e77d5/sources/slf4j-api-1.6.4-sources.jar" kind="lib" path="/Users/jholland/.gradle/caches/artifacts-4/org.slf4j/slf4j-api/c12498cf18507aa6433a94eb7d3e77d5/jars/slf4j-api-1.6.4.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/jholland/.gradle/caches/artifacts-4/org.slf4j/slf4j-log4j12/c12498cf18507aa6433a94eb7d3e77d5/sources/slf4j-log4j12-1.6.4-sources.jar" kind="lib" path="/Users/jholland/.gradle/caches/artifacts-4/org.slf4j/slf4j-log4j12/c12498cf18507aa6433a94eb7d3e77d5/jars/slf4j-log4j12-1.6.4.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/jholland/.gradle/caches/artifacts-4/junit/junit/c12498cf18507aa6433a94eb7d3e77d5/sources/junit-4.8.2-sources.jar" kind="lib" path="/Users/jholland/.gradle/caches/artifacts-4/junit/junit/c12498cf18507aa6433a94eb7d3e77d5/jars/junit-4.8.2.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/jholland/.gradle/caches/artifacts-4/commons-lang/commons-lang/c12498cf18507aa6433a94eb7d3e77d5/sources/commons-lang-2.3-sources.jar" kind="lib" path="/Users/jholland/.gradle/caches/artifacts-4/commons-lang/commons-lang/c12498cf18507aa6433a94eb7d3e77d5/jars/commons-lang-2.3.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/jholland/.gradle/caches/artifacts-4/log4j/log4j/c12498cf18507aa6433a94eb7d3e77d5/sources/log4j-1.2.16-sources.jar" kind="lib" path="/Users/jholland/.gradle/caches/artifacts-4/log4j/log4j/c12498cf18507aa6433a94eb7d3e77d5/bundles/log4j-1.2.16.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/jholland/.gradle/caches/artifacts-4/org.apache.geronimo.specs/geronimo-servlet_2.5_spec/c12498cf18507aa6433a94eb7d3e77d5/sources/geronimo-servlet_2.5_spec-1.2-sources.jar" kind="lib" path="/Users/jholland/.gradle/caches/artifacts-4/org.apache.geronimo.specs/geronimo-servlet_2.5_spec/c12498cf18507aa6433a94eb7d3e77d5/jars/geronimo-servlet_2.5_spec-1.2.jar"/>
+</classpath>

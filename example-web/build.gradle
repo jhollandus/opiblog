@@ -1,0 +1,19 @@
+apply plugin: 'jetty'
+apply plugin: 'war'
+
+version = '1.0-SNAPSHOT'
+
+configurations {
+	compile.extendsFrom configurations.common
+	testCompile.extendsFrom configurations.commonTest
+}
+
+dependsOn(':example-core')
+
+dependencies {
+	compile project(':example-core')
+
+	compile 'commons-lang:commons-lang:2.3'
+	
+	provided 'org.apache.geronimo.specs:geronimo-servlet_2.5_spec:1.2'
+}

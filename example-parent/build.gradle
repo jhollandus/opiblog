@@ -7,13 +7,13 @@ SLF4J_VERSION = '1.6.4'
 
 //specify all projects (modules) should use maven central for repositories
 allprojects {
-
+	
     repositories {
 
         mavenCentral()
 
     }
-
+	
 }
 
 //add the following configuration to all sub-projects
@@ -23,6 +23,9 @@ subprojects {
 
         commonTest
         common
+		
+		//libraries included at compile but not part of the deployable
+		provided
 
     }
 
@@ -39,6 +42,11 @@ subprojects {
 
    }
 
+	plugins.withType(JavaPlugin).whenPluginAdded {
+        sourceSets {
+            main { 
+                compileClasspath += configurations.provided
+            }
+        }
+    }
 }
-
-

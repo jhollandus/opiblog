@@ -1,0 +1,23 @@
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+  
+	<head>
+  		<title>Greetings</title>
+	</head>
+  
+	<body>
+		<c:if test="${greeting != null}">
+			<h3><c:out value="${greeting}" /></h3>
+		</c:if>
+		<p>
+			Please enter your name:<br />
+			<form>
+				<input type="text" name="name" />
+				<br />
+				<input type="submit" />
+			</form>
+		</p>
+	</body>
+</html> 

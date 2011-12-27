@@ -16,5 +16,10 @@ dependencies {
 
 }
 
+//add an argument to the application run
+run {
+	args = ['Anonymous']
+}
+
 //configurations for the application plugin
 mainClassName = 'com.objectpartners.blog.gradle.HelloWorld'

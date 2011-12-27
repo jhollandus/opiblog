@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="example-web">
+		<property name="context-root" value="example-web"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/example-core/example-core">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/jholland/.gradle/caches/artifacts-4/log4j/log4j/c12498cf18507aa6433a94eb7d3e77d5/bundles/log4j-1.2.16.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/jholland/.gradle/caches/artifacts-4/org.slf4j/slf4j-log4j12/c12498cf18507aa6433a94eb7d3e77d5/jars/slf4j-log4j12-1.6.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/jholland/.gradle/caches/artifacts-4/org.slf4j/slf4j-api/c12498cf18507aa6433a94eb7d3e77d5/jars/slf4j-api-1.6.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/jholland/.gradle/caches/artifacts-4/commons-lang/commons-lang/c12498cf18507aa6433a94eb7d3e77d5/jars/commons-lang-2.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>
